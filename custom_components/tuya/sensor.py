@@ -36,6 +36,7 @@ from .const import (
     TUYA_DISCOVERY_NEW,
     DPCode,
     DPType,
+    TuyaDeviceClass,
     UnitOfMeasurement,
 )
 
