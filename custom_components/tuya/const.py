@@ -282,7 +282,6 @@ class DPCode(StrEnum):
     SITUATION_SET = "situation_set"
     SLEEP = "sleep"  # Sleep function
     SLOW_FEED = "slow_feed"
-    SMART_WEATHER = "smart_weather"
     SMOKE_SENSOR_STATE = "smoke_sensor_state"
     SMOKE_SENSOR_STATUS = "smoke_sensor_status"
     SMOKE_SENSOR_VALUE = "smoke_sensor_value"
@@ -366,7 +365,6 @@ class DPCode(StrEnum):
     WATER_RESET = "water_reset"  # Resetting of water usage days
     WATER_SET = "water_set"  # Water level
     WATERSENSOR_STATE = "watersensor_state"
-    WEATHER_DELAY = "weather_delay"
     WET = "wet"  # Humidification
     WINDOW_CHECK = "window_check"
     WINDOW_STATE = "window_state"
