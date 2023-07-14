@@ -7,6 +7,7 @@
   "dependencies": ["ffmpeg"],
   "codeowners": ["@Tuya", "@zlinoliver", "@frenck"],
   "config_flow": true,
+  "integration_type": "hub",
   "iot_class": "cloud_push",
   "dhcp": [
     { "macaddress": "105A17*" },
