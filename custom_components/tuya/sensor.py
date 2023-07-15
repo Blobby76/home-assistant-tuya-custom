@@ -550,6 +550,13 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
      # Smart Water Timer2
     "ggq": (
         *BATTERY_SENSORS,
+        TuyaSensorEntityDescription(
+            key=DPCode.countdown_left,
+            name="Countdown left",
+            native_unit_of_measurement=TIME_SECONDS,
+            state_class=SensorStateClass.TOTAL_DECREASING,
+            icon="mdi:clock-outline",
+        ),
     ),
      # Smart Water Timer2
     "ggq": (
