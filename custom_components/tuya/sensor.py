@@ -560,7 +560,7 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
             key=DPCode.COUNTDOWN_LEFT,
             name="Countdown left",
             native_unit_of_measurement=TIME_SECONDS,
-            state_class=SensorStateClass.TOTAL_DECREASING,
+            state_class=SensorStateClass.MEASUREMENT,
             icon="mdi:clock-outline",
         ),
         *BATTERY_SENSORS,
