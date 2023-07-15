@@ -558,10 +558,6 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
             icon="mdi:clock-outline",
         ),
     ),
-     # Smart Water Timer2
-    "ggq": (
-        *BATTERY_SENSORS,
-    ),
     # Water Detector
     # https://developer.tuya.com/en/docs/iot/categorysj?id=Kaiuz3iub2sli
     "sj": BATTERY_SENSORS,
