@@ -172,6 +172,14 @@ NUMBERS: dict[str, tuple[NumberEntityDescription, ...]] = {
             icon="mdi:timer",
         ),
     ),
+    # Smart Water Timer
+    "ggq": (
+        NumberEntityDescription(
+            key=DPCode.ONE_OFF,
+            name="Countdown",
+            icon="mdi:timer",
+        ),
+    ),
     # Siren Alarm
     # https://developer.tuya.com/en/docs/iot/categorysgbj?id=Kaiuz37tlpbnu
     "sgbj": (
