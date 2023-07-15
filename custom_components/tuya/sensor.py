@@ -552,14 +552,14 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
         TuyaSensorEntityDescription(
             key=DPCode.COUNTDOWN,
             name="Countdown",
-            native_unit_of_measurement=TIME_SECONDS,
+            native_unit_of_measurement=TIME_MINUTES,
             state_class=SensorStateClass.MEASUREMENT,
             icon="mdi:clock-outline",
         ),
         TuyaSensorEntityDescription(
             key=DPCode.COUNTDOWN_LEFT,
             name="Countdown left",
-            native_unit_of_measurement=TIME_SECONDS,
+            native_unit_of_measurement=TIME_MINUTES,
             state_class=SensorStateClass.MEASUREMENT,
             icon="mdi:clock-outline",
         ),
